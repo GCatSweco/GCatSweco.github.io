@@ -1,0 +1,165 @@
+[
+    {
+        "name": "Mentale Gezondheid",
+        "id": "MeG",
+        "value": "40000",
+        "fill": "#fee08b",
+        "children": [
+          {
+            "iso_code": "ENZ",
+            "continent": "Mentale Gezondheid",
+            "name": "Eenzaamheid",
+            "value": "20000",
+            "fill": "#ffffbf",
+            "children": [
+                {
+                    "iso_code": "REC",
+                    "name": "Beschikbaar Recreatief gebied",
+                    "value": "10000",
+                    "fill": "#006837"
+                },
+                {"iso_code": "GEL",
+                    "name": "Geluidsoverlast",
+                    "value": "10000",
+                    "fill": "#fee08b"
+                }
+            ]},
+          {
+            "iso_code": "DEP",
+            "continent": "Mentale Gezondheid",
+            "name": "Kans op Depressie",
+            "value": "20000",
+            "fill": "#fdae61",
+            "children": [
+                {
+                    "iso_code": "REC",
+                    "name": "Hittestress",
+                    "value": "10000",
+                    "fill": "#ffffbf"
+                },
+                {"iso_code": "REC",
+                    "name": "Groenaandeel",
+                    "value": "10000",
+                    "fill": "#d73027"
+                }
+            ]
+          }
+        ]
+        },
+        {
+          "name": "Fysieke Gezondheid",
+          "id": "FyG",
+          "value": "400000",
+          "fill": "#a6d96a",
+          "children": [
+            {
+              "iso_code": "SPR",
+              "continent": "Fysieke Gezondheid",
+              "name": "Sporten",
+              "value": "10000",
+              "fill": "#66bd63",  
+              "children": [
+                {
+                    "iso_code": "REC",
+                    "name": "Beschikbaar Recreatief gebied",
+                    "value": "10000",
+                    "fill": "#006837"
+                }
+        ]
+            },           
+            {
+            "iso_code": "OBE",
+            "continent": "Fysieke Gezondheid",
+            "name": "Obesitas",
+            "value": "10000",
+            "fill": "#66bd63",
+            "children": [
+                {
+                    "iso_code": "REC",
+                    "name": "Geluidsoverlast",
+                    "value": "10000",
+                    "fill": "#fee08b"
+                }
+            ]
+              },           
+                {
+              "iso_code": "MOB",
+              "continent": "Fysieke Gezondheid",
+              "name": "Mobiliteitsbeperkingen",
+              "value": "10000",
+              "fill": "#d9ef8b",
+              "children": [
+                {
+                    "iso_code": "REC",
+                    "name": "Hittestress",
+                    "value": "10000",
+                    "fill": "#ffffbf"
+                }
+            ]
+              },           
+                {
+              "iso_code": "BWR",
+              "continent": "Fysieke Gezondheid",
+              "name": "Beweegrichtlijn",
+              "value": "10000",
+              "fill": "#a6d96a",
+              "children": [
+                {
+                    "iso_code": "REC",
+                    "name": "Groenaandeel",
+                    "value": "10000",
+                    "fill": "#d73027"
+                }
+            ]
+          }
+        ]
+        },
+        {
+          "name": "Veiligheid",
+          "id": "VEI",
+          "total_deaths": "40000",
+          "fill": " #fee08b",
+          "children": [
+            {
+              "iso_code": "CRI",
+              "continent": "Veiligheid",
+              "name": "Criminaliteit",
+              "value": "20000",
+              "fill": "#ffffbf",
+              "children": [
+                {
+                  "iso_code": "REC",
+                  "name": "Beschikbaar Recreatief gebied",
+                  "value": "10000",
+                  "fill": "#006837"
+              },
+              {"iso_code": "GEL",
+                  "name": "Geluidsoverlast",
+                  "value": "10000",
+                  "fill": "#fee08b"
+              }
+            ]},{
+              "iso_code": "VRK",
+              "continent": "Veiligheid",
+              "name": "Verkeersveiligheid",
+              "value": "20000",
+              "fill": "#f46d43",
+              "children": [
+                {
+                  "iso_code": "REC",
+                  "name": "Hittestress",
+                  "value": "10000",
+                  "fill": "#ffffbf"
+              },
+              {"iso_code": "REC",
+                  "name": "Groenaandeel",
+                  "value": "10000",
+                  "fill": "#d73027"
+              }
+            ]
+          }
+        ]
+    }
+]
+
+
